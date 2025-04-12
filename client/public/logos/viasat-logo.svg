@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- White background -->
+  <rect x="0" y="0" width="200" height="50" rx="5" fill="#FFFFFF"/>
+  
+  <!-- Viasat green -->
+  <defs>
+    <linearGradient id="viasatGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#006C3A"/>
+      <stop offset="100%" style="stop-color:#00A551"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Viasat logo -->
+  <g transform="translate(20, 10)">
+    <!-- Satellite orbits icon -->
+    <g transform="translate(0, 5) scale(0.8)">
+      <ellipse cx="15" cy="15" rx="15" ry="7" fill="none" stroke="url(#viasatGreen)" stroke-width="2" transform="rotate(-25, 15, 15)"/>
+      <ellipse cx="15" cy="15" rx="15" ry="7" fill="none" stroke="url(#viasatGreen)" stroke-width="2" transform="rotate(25, 15, 15)"/>
+      <circle cx="15" cy="15" r="4" fill="url(#viasatGreen)"/>
+    </g>
+    
+    <!-- Viasat text -->
+    <text x="45" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#viasatGreen)">VIASAT</text>
+    
+    <!-- Internet text -->
+    <text x="45" y="35" font-family="Arial, sans-serif" font-size="12" fill="#006C3A">INTERNET</text>
+  </g>
+</svg>

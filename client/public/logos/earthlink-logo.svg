@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- Light gray background -->
+  <rect x="0" y="0" width="200" height="50" rx="5" fill="#F2F2F2"/>
+  
+  <!-- EarthLink logo -->
+  <g transform="translate(20, 10)">
+    <!-- Globe icon -->
+    <g transform="scale(0.8)">
+      <circle cx="20" cy="20" r="18" fill="#004E9E" stroke="#004E9E" stroke-width="2"/>
+      <ellipse cx="20" cy="20" rx="18" ry="9" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+      <path d="M2,20 H38" stroke="#FFFFFF" stroke-width="1"/>
+      <path d="M20,2 V38" stroke="#FFFFFF" stroke-width="1"/>
+      <path d="M2,6 Q20,38 38,6" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+      <path d="M2,34 Q20,2 38,34" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    </g>
+    
+    <!-- EarthLink text -->
+    <g transform="translate(40, 15)">
+      <text font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#004E9E">EARTH</text>
+      <text x="65" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#98CA3F">LINK</text>
+    </g>
+    
+    <!-- Tagline -->
+    <text x="45" y="30" font-family="Arial, sans-serif" font-size="8" fill="#666666">HIGH SPEED INTERNET PROVIDER</text>
+  </g>
+</svg>

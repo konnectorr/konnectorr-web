@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="700" height="200" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Black TELECOM Text -->
+    <text x="150" y="130" font-family="Arial, sans-serif" font-weight="900" font-size="95" style="font-style:italic;" fill="black">TELECOM</text>
+    
+    <!-- Red Background for XPERTZ -->
+    <rect x="460" y="40" width="230" height="120" fill="#ff5757" rx="5" />
+    
+    <!-- White XPERTZ Text -->
+    <text x="470" y="130" font-family="Arial, sans-serif" font-weight="900" font-size="95" style="font-style:italic;" fill="white">XPERTZ</text>
+    
+    <!-- Underline below TELECOM -->
+    <line x1="150" y1="150" x2="450" y2="150" stroke="black" stroke-width="4"/>
+    
+    <!-- SAVE MONEY Text in Gray -->
+    <text x="200" y="180" font-family="Arial, sans-serif" font-weight="300" font-size="35" letter-spacing="3" fill="#888888">SAVE MONEY</text>
+  </g>
+</svg>

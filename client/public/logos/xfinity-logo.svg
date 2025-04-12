@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- Black background -->
+  <rect x="0" y="0" width="200" height="50" rx="5" fill="#000000"/>
+  
+  <!-- Xfinity logo -->
+  <g transform="translate(30, 10)">
+    <!-- X -->
+    <path d="M0,0 L10,15 M0,15 L10,0" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Infinity symbol -->
+    <path d="M25,7.5 C25,3.36 28.36,0 32.5,0 C36.64,0 40,3.36 40,7.5 C40,11.64 36.64,15 32.5,15 C30.43,15 28.59,14.1 27.34,12.66 C26.09,14.1 24.26,15 22.18,15 C18.04,15 14.68,11.64 14.68,7.5 C14.68,3.36 18.04,0 22.18,0 C24.26,0 26.09,0.9 27.34,2.34" 
+          fill="none" stroke="#FF7F00" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Xfinity text -->
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">XFINITY</text>
+</svg>
